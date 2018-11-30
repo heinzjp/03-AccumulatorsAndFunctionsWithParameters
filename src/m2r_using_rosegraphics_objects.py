@@ -28,11 +28,11 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
 #              Down
 #
 #     b. Write a line of code that constructs a RoseWindow object:
-#            window = rg.RoseWindow()
+#            circle = rg.Circle(rg.Point(50,50), 10)
 #
 #     c. What is the default height of a RoseWindow?
 #        (Use the HOVER trick to determine the answer to this question.)
-#            width: 400 height: 300
+#            height: 300
 #
 #     d. Write a line of code that construct a RoseWindow object
 #        whose height is 100:  (Use the HOVER trick to figure it out)
@@ -49,7 +49,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
 #
 #          -- Write the names of three INSTANCE VARIABLEs that Circle
 #             objects have:
-#                radius and center point
+#                center_point, center_point, fill_color
 #
 #     f. What does a RoseWindow RENDER method do?
 #            renders all the objects to the window. They will not show until that command is ran.
